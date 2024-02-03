@@ -2,15 +2,23 @@ import { createClient } from "@/prismicio";
 import { PrismicNextLink } from "@prismicio/next";
 import Link from "next/link";
 
-async function Navigation() {
+async function Footer() {
   const client = createClient();
+
   const settings = await client.getSingle("settings");
 
+  const { site_title } = settings.data;
+
   return (
-    <header>
+    <footer>
       <Link href={"/"} className="text-4xl font-display font-semibold">
-        {settings.data.site_title}
+        {site_title}
       </Link>
+
+      <p>
+        ©{new Date().getFullYear()} {site_title}
+      </p>
+
       <nav>
         <ul>
           {settings.data.navigation.map(({ label, link }) => (
@@ -20,8 +28,8 @@ async function Navigation() {
           ))}
         </ul>
       </nav>
-    </header>
+    </footer>
   );
 }
 
-export default Navigation;
+export default Footer;
