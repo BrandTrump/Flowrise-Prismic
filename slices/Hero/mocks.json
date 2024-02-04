@@ -3,72 +3,62 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"title": {
+			"heading": {
 				"__TYPE__": "StructuredTextContent",
 				"value": [
 					{
-						"type": "heading2",
+						"type": "heading1",
 						"content": {
-							"text": "Build a website that keeps getting better",
-							"spans": []
-						},
-						"direction": "ltr"
+							"text": "Halfway"
+						}
 					}
 				]
 			},
-			"eyebrowHeadline": {
-				"__TYPE__": "FieldContent",
-				"type": "Text",
-				"value": "Hero"
-			},
-			"description": {
+			"body": {
 				"__TYPE__": "StructuredTextContent",
 				"value": [
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Learn how prismic.io helps thousands of businesses around the world with some of our customers’ use-cases",
-							"spans": []
-						},
-						"direction": "ltr"
+							"text": "Laboris excepteur officia in voluptate dolore ea non. Do incididunt Lorem est incididunt ullamco Lorem quis aliqua quis ad non in. Voluptate Lorem irure pariatur nostrud commodo."
+						}
 					}
 				]
 			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "suit",
+				"type": "Text"
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
 			"image": {
-				"url": "https://images.unsplash.com/photo-1584559582128-b8be739912e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw5fHxmcnVpdHxlbnwwfHx8fDE2OTQ0NDI5NzZ8MA&ixlib=rb-4.0.3&q=85",
 				"origin": {
-					"id": "h5yMpgOI5nI",
-					"url": "https://images.unsplash.com/photo-1584559582128-b8be739912e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw5fHxmcnVpdHxlbnwwfHx8fDE2OTQ0NDI5NzZ8MA&ixlib=rb-4.0.3&q=85",
-					"width": 3710,
-					"height": 3710
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+					"width": 3168,
+					"height": 4752
 				},
-				"width": 3710,
-				"height": 3710,
+				"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+				"width": 3168,
+				"height": 4752,
 				"edit": {
-					"background": "transparent",
 					"zoom": 1,
 					"crop": {
 						"x": 0,
 						"y": 0
-					}
+					},
+					"background": "transparent"
 				},
 				"credits": null,
-				"alt": "Image Content",
+				"alt": null,
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
-			},
-			"callToActionLabel": {
-				"__TYPE__": "FieldContent",
-				"type": "Text",
-				"value": "Call to Action"
-			},
-			"callToActionLink": {
-				"__TYPE__": "LinkContent",
-				"value": {
-					"__TYPE__": "ExternalLink",
-					"url": "https://prismic.io",
-					"target": ""
-				}
 			}
 		},
 		"items": []
