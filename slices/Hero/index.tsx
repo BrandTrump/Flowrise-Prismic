@@ -14,7 +14,7 @@ const components: JSXMapSerializer = {
     <Heading
       as="h1"
       size="xl"
-      className="md:mb-8 mb-4 mt-12 first:mt-0 last:mb-0"
+      className="md:mb-8 mb-4 mt-12 first:mt-0 last:mb-0 max-w-3xl"
     >
       {children}
     </Heading>
