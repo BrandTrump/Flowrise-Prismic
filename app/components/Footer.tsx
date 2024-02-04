@@ -12,7 +12,7 @@ async function Footer() {
   const { site_title } = settings.data;
 
   return (
-    <Bounded as={"footer"}>
+    <Bounded as={"footer"} className="bg-white">
       <div className="flex sm:flex-row flex-col justify-between items-center gap-6">
         <Link href={"/"} className="text-4xl font-display font-semibold">
           <Logo />
